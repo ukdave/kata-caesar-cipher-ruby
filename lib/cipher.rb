@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 class Cipher
   def remove_punctuation input
     input.gsub(/[^a-zA-Z]/, "")
